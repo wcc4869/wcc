@@ -1,0 +1,7 @@
+{
+  "require": {
+    "elasticsearch/elasticsearch": "~5.0",
+    "jpush/jpush": "^3.5",
+    "overtrue/wechat": "~3.1"
+  }
+}

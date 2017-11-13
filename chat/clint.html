@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>webSocket</title>
+    <meta charset='utf-8'/>
+</head>
+<body>
+<div style="padding:100px 100px ; width:300px;height:200px;border:1px red solid;margin:0px auto">
+
+    <input type="text" id='text' placeholder="请输入" />&nbsp;<input type='button' id='sub' value='发送' onclick = a()><br><br>
+    <div style="width:50%;border:1px red solid" id='div'></div>
+
+</div>
+
+<script>
+
+    var text = document.getElementById('text');
+    var sub = document.getElementById('sub');
+    var div = document.getElementById('div');
+
+    var wsServer = "ws://10.0.6.170:9501";
+    var ws = new WebSocket(wsServer);
+
+    ws.onopen = function(evt){
+        console.log(ws.readyState);
+    }
+
+    function a(){
+        var content = text.value;
+        text.value = '';
+        ws.send(content);
+
+    }
+
+    ws.onmessage = function(evt){
+        div.innerHTML += evt.data + '<br>';
+        // console.log(evt.data);
+    }
+
+
+</script>
+</body>
+
+</html>
