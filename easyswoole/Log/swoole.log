@@ -1,0 +1,24 @@
+[2018-04-02 11:27:36 #49607.4]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 $49608.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 *49624.7]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 *49623.6]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 *49622.5]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 *49620.3]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 *49619.2]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 *49618.1]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 *49621.4]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 *49617.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-02 11:27:36 $49608.0]	WARNING	swManager_check_exit_status: worker#16 abnormal exit, status=0, signal=1
+[2018-04-02 12:06:29 #49607.4]	NOTICE	Server is shutdown now.
+[2018-04-03 16:52:54 *9192.7]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 *9191.6]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 #9175.4]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 *9190.5]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 *9189.4]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 *9187.2]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 $9176.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 *9185.0]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 *9186.1]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 *9188.3]	WARNING	swSignal_callback: signal[1] callback is null.
+[2018-04-03 16:52:54 $9176.0]	WARNING	swManager_check_exit_status: worker#16 abnormal exit, status=0, signal=1
+[2018-04-03 16:57:50 #9175.4]	NOTICE	Server is shutdown now.
