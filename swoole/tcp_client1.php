@@ -26,7 +26,7 @@ if (!$data)
 }
 echo $data;
 //关闭连接
-//$client->close();
+$client->close();
 
 
 

@@ -40,12 +40,12 @@ $serv->on('connect', function ($serv, $fd) {
 
 //监听数据接收事件
 $serv->on('receive', function ($serv, $fd, $from_id, $data) {
-    $serv->send($fd, "Server:$from_id ".$data);
+    $serv->send($fd, "Server:来自:$from_id " . ':' . $data);
 });
 
 //监听连接关闭事件
 $serv->on('close', function ($serv, $fd) {
-    echo "Client: Close.\n";
+    echo "Client: 连接关闭.\n";
 });
 
 //启动服务器

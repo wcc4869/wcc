@@ -1,8 +1,15 @@
 <?php
 //创建Server对象，监听 127.0.0.1:9502端口，类型为SWOOLE_SOCK_UDP
-$serv = new swoole_server("127.0.0.1", 9502, SWOOLE_PROCESS, SWOOLE_SOCK_UDP);
+$serv = new swoole_server("0.0.0.0", 9502, SWOOLE_PROCESS, SWOOLE_SOCK_UDP);
 //监听数据接收事件
+/**
+ * $serv : 服务器信息
+ * $data: 数据
+ * $clientInfo:客户端信息
+ */
+
 $serv->on('Packet', function ($serv, $data, $clientInfo) {
+    // 发送数据到相应客户端，反馈信息
     $serv->sendto($clientInfo['address'], $clientInfo['port'], "Server ".$data);
     var_dump($clientInfo);
 });
