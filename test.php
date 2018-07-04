@@ -1,5 +1,6 @@
 <?php
 
+use GuzzleHttp\Client;
 $file = '/Users/wcc/cc.txt';
 
 $handel  = fopen($file, 'w+');
