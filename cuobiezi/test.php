@@ -3,8 +3,8 @@ error_reporting(E_ALL ^ E_NOTICE);
 require_once './tencentcloud-sdk-php-master/src/QcloudApi/QcloudApi.php';
 
 $config = array(
-    'SecretId'      => 'AKIDAD6qQoX5wbDfvzrhMsCKH4f4KSPC4Len',
-    'SecretKey'     => '63qQo3B7qNr9F9uWxCF8pLgHk197tTr3',
+    'SecretId'      => '',
+    'SecretKey'     => '',
     'RequestMethod' => 'POST',
     'DefaultRegion' => 'gz');
 
